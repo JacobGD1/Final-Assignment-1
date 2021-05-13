@@ -1,0 +1,21 @@
+body {
+  margin: 30px;
+  background-color: #d2a679
+}
+
+img Circle.jpg{
+  width: 20%;
+  height: 20%;
+  float: right;
+  margin: 70px;
+}
+
+button {
+  background-color: whitesmoke
+  padding: 3px;
+  margin: 5px;
+}
+
+.text {
+  font-size: 120%;
+}

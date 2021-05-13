@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Area of Shapes Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1><center>Calculate The Circumference Or Area Of A Circle Or A Square</center></h1>
+    <div>
+      <br>
+      <p>Enter the radius of your circle:</p>
+      <br>
+      <img src="Circle.jpg" alt="area of circle">
+      <br>
+      <input type="text" id="number" placeholder="Area Or Circumference">
+      <button id="area">area</button>
+      <button id="circumference">circumference</button>
+    </div>
+    <div class="text">
+      <br>
+      <p>A = <b id="area-answer">pi(radius/2)*2</b></p>
+      <p>C = <b id="circumference-answer">pi(radius</b></p>
+    </div>
+    <div class="text">
+      <br>
+      <p>Enter a side of your square</p>
+      <br>
+      <img src="Square.png" alt="area of square">
+      <br>
+      <p id="area_status"></p>
+      <label>Side Length= </label>
+      <input id="side" type="text" class="form-control" placeholder="SIDE LENGTH" /><br>
+      <p><button onclick="areaofsquare()" class="btn">calculate</button></p>
+      <br>   
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
