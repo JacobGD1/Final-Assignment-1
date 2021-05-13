@@ -22,12 +22,12 @@ function circumferenceButton () {
   radius = parseFloat(radius)
   pinumber = parseFloat(pinumber)
 
-  circumference = (2*pinumber) * radius
+  circumference = (2 * pinumber) * radius
   document.getElementById('circumference-answer').innerHTML = circumference
 }// Function of Circumference Button
 
-function areaofsquare(){
-   var side = document.getElementById("side").value;
-   var output = side*side;
-   document.getElementById("area_status").innerHTML="your area is "+output;
+function areaofsquare () {
+  const side = document.getElementById('side').value
+  const output = side * side
+  document.getElementById('area-status').innerHTML = 'your area is ' + output
 }// this code allows the document to take the side and times it by itself giving you an answer after clicking the calculate button.
