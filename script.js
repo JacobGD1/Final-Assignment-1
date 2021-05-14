@@ -45,6 +45,6 @@ function area2Button () {
   height = document.getElementById('triangleheight').value
   height = parseFloat(height)
 
-  area = (base * height)/2
+  area = (base * height) / 2
   document.getElementById('area2-answer').innerHTML = area
 }// Function of area2Button
