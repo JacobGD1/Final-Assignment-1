@@ -1,11 +1,13 @@
 document.getElementById('area').addEventListener('click', areaButton)
 document.getElementById('circumference').addEventListener('click', circumferenceButton)
+document.getElementById('area1').addEventListener('click',area1Button)
 // Connects buttons to area and circumference
 
 let radius = 0
 let area = 0
 let circumference = 0
 let pinumber = Math.PI
+let side = 0
 // Sets Variables/Let statements
 
 function areaButton () {
@@ -26,8 +28,10 @@ function circumferenceButton () {
   document.getElementById('circumference-answer').innerHTML = circumference
 }// Function of Circumference Button
 
-function areaofsquare () {
-  const side = document.getElementById('side').value
-  const output = side * side
-  document.getElementById('area-status').innerHTML = 'your area is ' + output
-}// this code allows the document to take the side and times it by itself giving you an answer after clicking the calculate button.
+function area1Button () {
+  side = document.getElementById('squarenumber').value
+  side = parseFloat(side)
+
+  area = side * side
+  document.getElementById('area1-answer').innerHTML = area
+}
