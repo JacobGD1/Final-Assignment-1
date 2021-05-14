@@ -1,6 +1,6 @@
 document.getElementById('area').addEventListener('click', areaButton)
 document.getElementById('circumference').addEventListener('click', circumferenceButton)
-document.getElementById('area1').addEventListener('click',area1Button)
+document.getElementById('area1').addEventListener('click', area1Button)
 // Connects buttons to area and circumference
 
 let radius = 0
